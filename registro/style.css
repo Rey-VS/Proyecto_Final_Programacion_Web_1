@@ -1,0 +1,96 @@
+body{
+    box-sizing: border-box;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+form{
+    box-shadow: 0 0 20px rgb(247, 187, 37);
+    padding: 50px 35px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+}
+form h2 {
+    font-size: 35px;
+    color: rgb(247, 167, 46);
+    margin: 0;
+}
+
+form p {
+    font-size: 15px;
+    color: rgb(241, 176, 77);
+    margin: 35;
+}
+
+.input-wrapper{
+    position: relative;
+    width: 305px;
+    margin-bottom: 25px;
+}
+
+input {
+    color: rgb(19, 19, 19);
+    padding: 15px 15px 15px 60px;
+    width: 70%;
+    border-radius: 25px;
+    border: 0;
+    box-shadow: 0 0 20px rgb(202, 188, 167);
+    outline: none;
+    font-size: 13px;
+}
+
+input::placeholder{
+    font-family: cursive;
+    font-size: 14px;
+    color:rgb(158, 147, 147)
+}
+
+.input-icon{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 40px;
+    top: 16%;
+}
+
+.btn{
+    padding: 15px;
+    background: linear-gradient(
+        90deg,
+        rgba(239, 209, 133, 0.873) 25%,
+        rgba(247, 192, 64, 0.917) 100%);
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0 0 20px rgba(175, 173, 168, 0.917); 
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    font-size: 14px;
+}
+
+.btn:hover{
+    background: rgba(238, 206, 61, 0.848);
+}
+
+.success{
+    position: absolute;
+    top: 50px;
+    color: rgb(20, 240, 20);
+    font-size: 18px;
+}
+
+.error{
+    position: absolute;
+    top: 50px;
+    color: rgb(255, 34, 0);
+    font-size: 18px;
+}
+
+
+
+
